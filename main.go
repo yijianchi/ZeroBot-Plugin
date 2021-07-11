@@ -65,7 +65,7 @@ func main() {
 		"========================================================",
 	) // 启动打印
 	zero.Run(zero.Config{
-		NickName:      []string{"客体狗狗", "ATRI", "atri", "亚托莉", "アトリ"},
+		NickName:      []string{"客体狗狗", "苦呀西", "atri", "亚托莉", "アトリ"},
 		CommandPrefix: "/",
 
 		// SuperUsers 某些功能需要主人权限，可通过以下两种方式修改
