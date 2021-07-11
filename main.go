@@ -47,6 +47,7 @@ var content = []string{
 	"* Version 1.0.4 - 2021-07-02 19:14:58.581489207 +0800 CST",
 	"* Copyright © 2020 - 2021  Kanri, DawnNights, Fumiama ",
 	"* Project: https://github.com/FloatTech/ZeroBot-Plugin",
+	"* Forked Project: https://github.com/yijianchi/ZeroBot-Plugin",
 }
 
 func init() {
@@ -64,13 +65,13 @@ func main() {
 		"========================================================",
 	) // 启动打印
 	zero.Run(zero.Config{
-		NickName:      []string{"椛椛", "ATRI", "atri", "亚托莉", "アトリ"},
+		NickName:      []string{"客体狗狗", "ATRI", "atri", "亚托莉", "アトリ"},
 		CommandPrefix: "/",
 
 		// SuperUsers 某些功能需要主人权限，可通过以下两种方式修改
 		// []string{}：通过代码写死的方式添加主人账号
 		// os.Args[1:]：通过命令行参数的方式添加主人账号
-		SuperUsers: append([]string{"12345678", "87654321"}, os.Args[1:]...),
+		SuperUsers: append([]string{"841162182", "10000"}, os.Args[1:]...),
 
 		Driver: []zero.Driver{
 			&driver.WSClient{
